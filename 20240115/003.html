@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>display 속성 : block, inline, inline-block</title>
+  <style>
+    div{
+      border: 1px solid red;
+      width: 100px;
+    }
+    span{
+      border: 1px solid blue;
+      width: 100px;
+      /* 
+        *span은 width가 적용되지 않는다.
+        *span은 내용 너비만큼 넓이가 생긴다.
+      */
+    }
+    div, span{
+      display: inline-block;
+      /* *inline-block은 width가 적용되고 한 줄에 다 나온다.(합석) */
+    }
+  </style>
+</head>
+<body>
+  <div>우리나라</div>
+  <div>우리나라</div>
+  <span>우리나라</span>
+  <span>우리나라</span>
+</body>
+</html>

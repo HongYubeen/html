@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formatting 요소</title>
+  <style>
+    span{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- 블록 요소는 인라인 요소를 포함할 수 있다 -->
+  <!--
+    요소가 의미를 가진다 -> semantic 요소
+    b는 두껍게 -> semantic 하지 않다.
+    strong은 강조 -> semantic 하다
+    * span은 아무 의미가 없다.
+
+    * i는 강조
+    * em도 강조
+  -->
+  <p>우리나라 <b>좋은</b>나라</p>
+  <p>우리나라 <span>좋은</span>나라</p>
+  <p>우리나라 <strong>좋은</strong>나라</p>
+
+  <p>우리나라 <i>좋은</i>나라</p>
+  <p>우리나라 <em>좋은</em>나라</p>
+</body>
+</html>

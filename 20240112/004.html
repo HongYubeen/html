@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 다른 사람이 만든 css를 가져온다 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+  <style>
+    /* 태그 선택자 < 클래스 선택자 < 아이디 선택자 */
+    .target{
+      color: rgb(236, 17, 17);
+    }
+    .fa-apple, .fa-html5 {
+      color: red;
+      font-size: 3em;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    아이디는 요소 한 개
+    클래스는 요소 여러 개
+    * 클래스를 여러 개 만들 때는 띄어쓰기로 구분
+   -->
+  <p class="target a b c">우리나라 좋은나라</p>
+  <p>우리나라 좋은나라</p>
+  <p class="target">우리나라 좋은나라</p>
+  <p>우리나라 좋은나라</p>
+  <i class="fa fa-apple" aria-hidden="true"></i>
+  <i class="fa fa-html5" aria-hidden="true"></i>
+</body>
+</html>

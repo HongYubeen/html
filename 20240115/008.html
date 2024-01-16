@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .divDiv{
+      height: 767px;
+      display: flex;
+    }
+    .divUl{
+      /* block 요소의 가운데 정렬 : 너비주고 margin 지정 */
+      border: 3px solid skyblue;
+      width: 950px;
+      height: 655px;
+      margin: auto;
+      text-align: center;
+    }
+    .divUl ul{
+      list-style: none;
+      display: grid;
+      height: 654px;
+      align-content: space-around;
+    }
+    .divUl li{
+      font-size: xxx-large;
+    }
+    .divUl li span{
+      font-size: larger;
+    }
+    .red{
+      color: red;
+    }
+    .blue{
+      color: blue;
+    }
+    .deepblue{
+      color: deepskyblue;
+    }
+    .brown{
+      color: brown;
+    }
+    .italic{
+      font-style: italic;
+    }
+  </style>
+</head>
+<body> 
+  <div class="divDiv">
+    <div class="divUl">
+      <ul>
+        <li><span class="red">우</span>리나라 좋은나라</li>
+        <li><span class="blue italic">우</span>리나라 좋은나라</li>
+        <li><span class="deepblue">우</span>리나라 좋은나라</li>
+        <li><span class="brown italic">우</span>리나라 좋은나라</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
